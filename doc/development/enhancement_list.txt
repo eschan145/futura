@@ -1,0 +1,54 @@
+****************
+Enhancement list
+****************
+
+Futura is a developing project, and we would appreciate your help. Here is a
+list of enhancements or requests that are currently in slow progress.
+
+Please file an `issue<https://github.com/eschan145/futura/issues>`_ or a `pull
+request<https://github.com/eschan145/futura/pull>`_ if you would like to
+contribute. Read the provided template.
+
+Widgets enhancements
+====================
+
+Button
+------
+
+* Enable using modifiers for keybindings. This can be used for other keyboard
+  shortcuts.
+* Add focus image. Focus works but needs an image.
+
+Label
+-----
+
+* Enable using modifiers for keybindings. This can be used for other keyboard
+  shortcuts
+
+Toggle
+------
+
+* Add exterior shadow to knob image
+* Add interior shadow to bar image
+* Add fading effect for knob hover scale
+* Add disabled and focus images and some missing functionality
+
+Slider
+------
+
+* Use border resizing technique to make the bar resizable with rounded corners.
+* Add fading effect for knob hover scale
+* Make the part of the bar on the left side a different color than the other
+* Add disabled and focus images and some missing functionality
+
+Misc
+----
+
+* Move :py:class:`~futura.widgets.base.Widget` into a separate module, named
+  :py:mod:`~futura.widgets.base`
+
+Text
+====
+
+* Add text submodule, containing text features, support, and formats
+* Add new futura format

@@ -33,8 +33,8 @@ a ``number`` parameter specifies the inputed number to be converted to Roman.
 
 **Exceptions**::
 
-A :py:exc:`ValueError` may be invoked if the inputed number exceeds 4,000
-
+A :py:exc:`ValueError` may be invoked if the inputed number exceeds 4,000.
+A :py:exc:`LookupError` may be raised if the custom list is invalid.
 
 Credit to http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/81611. 
 """
@@ -113,7 +113,7 @@ def convert_to_roman(number, custom=None):
     # Typically don't format like this, but it makes it neater and readable
 
     integers = (1000, 900,  500, 400, 100, 90,  50, 40,  10, 9,   5,  4,   1)
-    numerals = ('M',  'CM', 'D', 'CD','C', 'XC','L','XL','X','IX','V','IV','I')
+    numerals = ("M",  "CM", "D", "CD","C", "XC","L","XL","X","IX","V","IV","I")
     result = ""
 
     if custom:

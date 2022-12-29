@@ -1,0 +1,1 @@
+In this folder are images for the gui extensions.
